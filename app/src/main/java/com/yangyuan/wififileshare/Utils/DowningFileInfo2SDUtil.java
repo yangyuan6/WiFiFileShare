@@ -1,0 +1,34 @@
+package com.yangyuan.wififileshare.Utils;
+
+import android.text.TextUtils;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
+import com.yangyuan.wififileshare.bean.ServiceFileInfo;
+
+import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.HashMap;
+
+/**
+ * Created by yangy on 2018/1/9.
+ */
+/**
+ * 将下载文件信息保存到SD卡工具类
+ */
+public class DowningFileInfo2SDUtil {
+    public static void save(HashMap<String,ArrayList<ServiceFileInfo>> map){
+        SharedPreferencesUtil.saveData("DowningFileInfo",GsonUtils.toJson(map));
+    }
+    public static HashMap<String,ArrayList<ServiceFileInfo>> get(){
+        Gson gson = new GsonBuilder().enableComplexMapKeySerialization().create();
+        Type type = new TypeToken<HashMap<String, ArrayList<ServiceFileInfo>>>() {}.getType();
+        String jsonString=(String)SharedPreferencesUtil.getData("DowningFileInfo","");
+        if(TextUtils.isEmpty(jsonString)){
+            return new HashMap<String,ArrayList<ServiceFileInfo>>();
+        }
+        HashMap<String,  ArrayList<ServiceFileInfo>> map= gson.fromJson(jsonString, type);
+        return map;
+    }
+}

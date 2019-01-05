@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.yangyuan.wififileshare">
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- 往sdcard中写入数据的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 在sdcard中创建/删除文件的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--6.0热点无法打开-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <!--联系人权限 开起此权限才能够读取apk文件-->
+    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!-- 在sdcard中创建/删除文件的权限 -->
+
+    <application
+        android:screenOrientation="portrait"
+        android:allowBackup="true"
+        android:name=".BaseApplication"
+        android:label="@string/app_name"
+        android:icon="@mipmap/app_icon"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+        tools:replace="android:icon,android:theme">
+        <activity android:name=".UI.WelcomeActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UI.HomeActivity" android:theme="@style/AppTheme"/>
+        <activity android:name=".UI.SettingUserNamePhotoActivity"/>
+        <activity android:name=".UI.FindSharingActivity"/>
+        <activity android:name=".UI.ShareActivity"/>
+        <activity android:name=".UI.FileChoseActivity"/>
+        <activity android:name=".UI.ShowShareFileInfoActivity"/>
+        <activity android:name=".UI.DownFilesActivity"/>
+        <activity android:name=".UI.ManageShareFileActivity"/>
+        <activity android:name=".UI.ReceiveHistoryActivity"/>
+        <activity android:name=".UI.AboutActivity"/>
+        <activity android:name="zhou.tools.fileselector.FileSelectorActivity"
+            android:theme="@style/Theme.AppCompat.Light"/>
+        <service android:name=".Trans.SendService"/>
+        <service android:name=".Trans.ServerService"/>
+
+
+    </application>
+
+</manifest>
