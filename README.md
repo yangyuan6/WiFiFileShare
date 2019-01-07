@@ -1,63 +1,59 @@
-## 趣分享
+![](https://img.shields.io/badge/License-Apache%202-yellow.svg)
+# 趣分享
 
-###  Android一对多WiFi文件共享软件
+##  Android一对多WiFi文件共享软件
+**本系统基于Apache2.0协议开源，请严格遵守开源协议。**
+### 0x01 软件主界面
+<center><img src="https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/01.png" width="280" height="500"></center>
 
-- 软件主界面
+#### 蓝牙分享本软件
+<center><img src="https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/02.png" width="280" height="500"></center>
 
-![Image text](https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/01.png)
+#### 设置用户名
+<center><img src="https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/03.png" width="280" height="500"></center>
 
-- 蓝牙分享本软件
+#### 下载列表
+<center><img src="https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/04.png" width="280" height="500"></center>
+#### 传输历史
+<center><img src="https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/05.png" width="280" height="500"></center>
 
-![Image text](https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/02.png)
+#### 从分享者下载文件
+<center><img src="https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/06.png" width="280" height="500"></center>
 
-- 设置用户名
+#### 发现分享者
 
-![Image text](https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/03.png)
+<center><img src="https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/07.png" width="280" height="500"></center>
 
-- 下载列表
+#### 连接到分享者并选择感兴趣的下载
+<center><img src="https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/08.png" width="280" height="500"></center>
 
-![Image text](https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/04.png)
+#### 选择想要分享的文件
+<center><img src="https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/09.jpg" width="280" height="500"></center>
 
-- 传输历史
+#### 选择任意文件
 
-![Image text](https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/05.png)
+<center><img src="https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/10.jpg" width="280" height="500"></center>
 
-- 从分享着下载文件
+#### 分享列表
+<center><img src="https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/11.jpg" width="280" height="500"></center>
 
-![Image text](https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/06.png)
+#### 开启分享
 
-- 发现分享者
+<center><img src="https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/12.png" width="280" height="500"></center>
 
-![Image text](https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/07.png)
+#### 查看分享列表
 
-- 连接到分享者并选择感兴趣的下载
+<center><img src="https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/13.png" width="280" height="500"></center>
 
-![Image text](https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/08.png)
+#### 头像
 
-- 选择想要分享的文件
+<center><img src="https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/14.png" width="280" height="500"></center>
 
-![Image text](https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/09.jpg)
+#### 手机测试
 
-- 选择任意文件
+<center><img src="https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/15.jpg" width="280" height="500"></center>
 
-![Image text](https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/10.jpg)
+### 0x02 关于
 
-- 分享列表
-
-![Image text](https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/11.jpg)
-
-- 开启分享
-
-![Image text](https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/12.png)
-
-- 查看分享列表
-
-![Image text](https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/13.png)
-
-- 头像
-
-![Image text](https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/14.png)
-
-- 手机测试
-
-![Image text](https://raw.githubusercontent.com/imu-yangyuan/WiFiFileShare/master/screenshot/15.jpg)
+- 如何支持作者：点击右上角的"star" 的按钮，是对作者的最大支持；
+- 如有问题，请[提交issue](https://github.com/imu-yangyuan/WiFiFileShare/issues/new);
